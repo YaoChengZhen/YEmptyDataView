@@ -1,0 +1,6 @@
+framework module Pods_YEmptyDataView_Example {
+  umbrella header "Pods-YEmptyDataView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_YEmptyDataView_Tests {
+  umbrella header "Pods-YEmptyDataView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

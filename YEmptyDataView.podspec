@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YEmptyDataView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YEmptyDataView.'
+  s.summary          = 'TableView与Collectionview空数据时显示的view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: uitableview 或uicollectionview 为空的界面显示.
                        DESC
 
   s.homepage         = 'https://github.com/YaoChengZhen/YEmptyDataView'
@@ -29,6 +29,11 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '5.0'
+
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'SnapKit'
 
   s.source_files = 'YEmptyDataView/Classes/**/*'
   

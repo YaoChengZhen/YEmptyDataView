@@ -1,0 +1,45 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SnapKit (4.2.0)
+  - YEmptyDataView (0.1.0):
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - YEmptyDataView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  YEmptyDataView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YEmptyDataView: 7a16c40a237581acd2e15c50584469384a77375b
+
+PODFILE CHECKSUM: 796752b447a7a02c71021ea3f39214a5184781d8
+
+COCOAPODS: 1.10.0
