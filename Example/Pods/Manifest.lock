@@ -11,7 +11,7 @@ PODS:
     - RxSwift (= 6.1.0)
   - RxSwift (6.1.0)
   - SnapKit (4.2.0)
-  - YEmptyDataView (0.1.0):
+  - YEmptyDataView (0.1.1):
     - RxCocoa
     - RxSwift
     - SnapKit
@@ -38,8 +38,8 @@ SPEC CHECKSUMS:
   RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
   RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  YEmptyDataView: 7a16c40a237581acd2e15c50584469384a77375b
+  YEmptyDataView: 563b7d56422a160829d816c9ddb759ecb2595ba7
 
 PODFILE CHECKSUM: 796752b447a7a02c71021ea3f39214a5184781d8
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

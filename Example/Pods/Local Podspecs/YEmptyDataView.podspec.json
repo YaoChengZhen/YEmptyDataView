@@ -1,6 +1,6 @@
 {
   "name": "YEmptyDataView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "TableView与Collectionview空数据时显示的view.",
   "description": "TODO: uitableview 或uicollectionview 为空的界面显示.",
   "homepage": "https://github.com/YaoChengZhen/YEmptyDataView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/YaoChengZhen/YEmptyDataView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
